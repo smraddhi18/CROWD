@@ -1,0 +1,97 @@
+Last login: Tue Oct 17 12:04:32 on ttys000
+smraddhi@smraddhis-MacBook-Air ~ % cd /Users/smraddhi/.npm/_logs/2023-10-17T06_47_16_312Z-debug-0.log
+cd: not a directory: /Users/smraddhi/.npm/_logs/2023-10-17T06_47_16_312Z-debug-0.log
+smraddhi@smraddhis-MacBook-Air ~ % cd /.npm/_logs/2023-10-17T06_47_16_312Z-debug-0.log     
+cd: no such file or directory: /.npm/_logs/2023-10-17T06_47_16_312Z-debug-0.log
+smraddhi@smraddhis-MacBook-Air ~ % cd /.npm                                    
+cd: no such file or directory: /.npm
+smraddhi@smraddhis-MacBook-Air ~ % npm --version
+9.8.0
+smraddhi@smraddhis-MacBook-Air ~ % cd Documents/B
+smraddhi@smraddhis-MacBook-Air B % ls
+package-lock.json
+smraddhi@smraddhis-MacBook-Air B % ls
+package-lock.json
+smraddhi@smraddhis-MacBook-Air B % npm i
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /Users/smraddhi/Documents/B/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/Users/smraddhi/Documents/B/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in: /Users/smraddhi/.npm/_logs/2023-10-17T06_53_24_272Z-debug-0.log
+smraddhi@smraddhis-MacBook-Air B % ls      
+package-lock.json
+smraddhi@smraddhis-MacBook-Air B % rm package-lock.json
+smraddhi@smraddhis-MacBook-Air B % ls
+smraddhi@smraddhis-MacBook-Air B % npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (b) npm install
+Sorry, name can only contain URL-friendly characters.
+package name: (b) project
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/smraddhi/Documents/B/package.json:
+
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+smraddhi@smraddhis-MacBook-Air B % npm i
+
+up to date, audited 1 package in 130ms
+
+found 0 vulnerabilities
+smraddhi@smraddhis-MacBook-Air B % ls
+package-lock.json	package.json
+smraddhi@smraddhis-MacBook-Air B % npm install
+
+up to date, audited 1 package in 117ms
+
+found 0 vulnerabilities
+smraddhi@smraddhis-MacBook-Air B % ls
+package-lock.json	package.json
+smraddhi@smraddhis-MacBook-Air B % npm --version
+9.8.0
+smraddhi@smraddhis-MacBook-Air B % yarn --version
+3.6.4
+smraddhi@smraddhis-MacBook-Air B % yarn add solc@lastest
+➤ YN0000: ┌ Resolution step
+➤ YN0016: │ solc@npm:lastest: Registry failed to return tag "lastest"
+➤ YN0000: └ Completed in 6s 494ms
+➤ YN0000: Failed with errors in 6s 495ms
+smraddhi@smraddhis-MacBook-Air B % solc --version
+zsh: command not found: solc
+smraddhi@smraddhis-MacBook-Air B % npm install
+
+up to date, audited 1 package in 136ms
+
+found 0 vulnerabilities
+smraddhi@smraddhis-MacBook-Air B %     

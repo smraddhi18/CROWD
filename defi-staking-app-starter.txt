@@ -1,0 +1,1102 @@
+Last login: Sun Oct 15 10:46:52 on ttys002
+smraddhi@smraddhis-MacBook-Air ~ % cd Documents/Blockchain
+smraddhi@smraddhis-MacBook-Air Blockchain % git clone https://github.com/01Clarian/defi-staking-app-starter.git
+Cloning into 'defi-staking-app-starter'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 18 (delta 0), reused 0 (delta 0), pack-reused 11
+Receiving objects: 100% (18/18), 338.54 KiB | 1.13 MiB/s, done.
+smraddhi@smraddhis-MacBook-Air Blockchain % cd defi-staking-app-starter 
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter % ls
+README.md			defi-staking-app-starter
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter %  cd   defi-staking-app-starter
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter % ls
+package-lock.json	public
+package.json		src
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter % code .
+zsh: command not found: code
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter % npm i
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated fsevents@1.2.4: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
+npm WARN deprecated topo@2.0.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated sane@2.5.2: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated react-tsparticles@1.31.2: React tsParticles 2.6.0 is out, please update
+npm WARN deprecated react-particles-js@3.5.3: This package has been deprecated in favor of react-tsparticles.
+npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated kleur@2.0.2: Please upgrade to kleur@3 or migrate to 'ansi-colors' if you prefer the old syntax. Visit <https://github.com/lukeed/kleur/releases/tag/v3.0.0\> for migration path(s).
+npm WARN deprecated joi@11.4.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated html-webpack-plugin@4.0.0-alpha.2: please switch to a stable version
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
+npm WARN deprecated ethereumjs-tx@2.1.2: New package name format for new versions: @ethereumjs/tx. Please update.
+npm WARN deprecated ethereumjs-common@1.5.2: New package name format for new versions: @ethereumjs/common. Please update.
+npm WARN deprecated eslint-loader@2.1.1: This loader has been deprecated. Please use eslint-webpack-plugin
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated tsparticles@1.31.1: tsParticles 2.6.0 is out, please update
+npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+npm WARN deprecated babel-eslint@9.0.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+npm WARN deprecated acorn-dynamic-import@3.0.0: This is probably built in to whatever tool you're using. If you still need it... idk
+npm WARN deprecated @babel/plugin-proposal-unicode-property-regex@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+npm WARN deprecated @babel/plugin-proposal-object-rest-spread@7.11.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm WARN deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm WARN deprecated @babel/plugin-proposal-numeric-separator@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm WARN deprecated @babel/plugin-proposal-class-properties@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm WARN deprecated @babel/plugin-proposal-optional-catch-binding@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm WARN deprecated @babel/plugin-proposal-logical-assignment-operators@7.11.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+npm WARN deprecated @babel/plugin-proposal-dynamic-import@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
+npm WARN deprecated @babel/plugin-proposal-optional-chaining@7.11.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm WARN deprecated @babel/plugin-proposal-async-generator-functions@7.10.5: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm WARN deprecated @babel/plugin-proposal-private-methods@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+npm WARN deprecated @babel/plugin-proposal-export-namespace-from@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
+npm WARN deprecated @babel/plugin-proposal-json-strings@7.10.4: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated fsevents@2.1.3: "Please update to latest v2.3 or v2.2"
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uglify-es@3.3.9: support for ECMAScript is superseded by `uglify-js` as of v3.13.0
+npm WARN deprecated core-js@2.6.4: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated fsevents@2.1.3: "Please update to latest v2.3 or v2.2"
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated fsevents@1.2.13: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated core-js@1.2.7: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated @babel/plugin-proposal-class-properties@7.3.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm WARN deprecated @babel/plugin-proposal-object-rest-spread@7.3.2: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+
+added 2567 packages, and audited 2568 packages in 2m
+
+66 packages are looking for funding
+  run `npm fund` for details
+
+153 vulnerabilities (13 low, 35 moderate, 67 high, 38 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter % npm audit
+# npm audit report
+
+ansi-html  <0.0.8
+Severity: high
+Uncontrolled Resource Consumption in ansi-html - https://github.com/advisories/GHSA-whgm-jr23-g3j9
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/ansi-html
+  webpack-dev-server  2.0.0-beta - 4.7.2
+  Depends on vulnerable versions of ansi-html
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of selfsigned
+  Depends on vulnerable versions of sockjs
+  Depends on vulnerable versions of yargs
+  node_modules/webpack-dev-server
+    react-scripts  0.1.0 - 5.0.0-next.60
+    Depends on vulnerable versions of @svgr/webpack
+    Depends on vulnerable versions of babel-jest
+    Depends on vulnerable versions of css-loader
+    Depends on vulnerable versions of fork-ts-checker-webpack-plugin-alt
+    Depends on vulnerable versions of fsevents
+    Depends on vulnerable versions of jest
+    Depends on vulnerable versions of react-dev-utils
+    Depends on vulnerable versions of terser-webpack-plugin
+    Depends on vulnerable versions of webpack
+    Depends on vulnerable versions of webpack-dev-server
+    node_modules/react-scripts
+
+ansi-regex  3.0.0 || 4.0.0 - 4.1.0 || 5.0.0
+Severity: high
+Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+fix available via `npm audit fix`
+node_modules/@types/jest/node_modules/ansi-regex
+node_modules/cliui/node_modules/ansi-regex
+node_modules/eslint/node_modules/ansi-regex
+node_modules/inquirer/node_modules/ansi-regex
+node_modules/jest/node_modules/ansi-regex
+node_modules/mocha/node_modules/ansi-regex
+node_modules/pretty-format/node_modules/ansi-regex
+node_modules/react-dev-utils/node_modules/ansi-regex
+node_modules/string-length/node_modules/ansi-regex
+node_modules/string-width/node_modules/ansi-regex
+node_modules/yargs-unparser/node_modules/ansi-regex
+
+async  2.0.0 - 2.6.3
+Severity: high
+Prototype Pollution in async - https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+fix available via `npm audit fix`
+node_modules/async
+
+braces  <=2.3.0
+Regular Expression Denial of Service in braces - https://github.com/advisories/GHSA-g95f-p29q-9xw4
+Regular Expression Denial of Service (ReDoS) in braces - https://github.com/advisories/GHSA-cwfw-4gq5-mrqx
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/braces
+  micromatch  0.2.0 - 2.3.11
+  Depends on vulnerable versions of braces
+  Depends on vulnerable versions of parse-glob
+  node_modules/micromatch
+    jest-cli  0.10.2 - 24.8.0
+    Depends on vulnerable versions of jest-config
+    Depends on vulnerable versions of jest-environment-jsdom
+    Depends on vulnerable versions of jest-haste-map
+    Depends on vulnerable versions of jest-message-util
+    Depends on vulnerable versions of jest-resolve-dependencies
+    Depends on vulnerable versions of jest-runner
+    Depends on vulnerable versions of jest-runtime
+    Depends on vulnerable versions of jest-snapshot
+    Depends on vulnerable versions of jest-util
+    Depends on vulnerable versions of micromatch
+    Depends on vulnerable versions of node-notifier
+    Depends on vulnerable versions of yargs
+    node_modules/jest/node_modules/jest-cli
+      jest  13.3.0-alpha.4eb0c908 - 23.6.0
+      Depends on vulnerable versions of jest-cli
+      node_modules/jest
+    jest-config  12.1.1-alpha.2935e14d - 25.5.4
+    Depends on vulnerable versions of babel-core
+    Depends on vulnerable versions of babel-jest
+    Depends on vulnerable versions of jest-environment-jsdom
+    Depends on vulnerable versions of jest-environment-node
+    Depends on vulnerable versions of jest-jasmine2
+    Depends on vulnerable versions of jest-util
+    Depends on vulnerable versions of micromatch
+    node_modules/jest-config
+      jest-runner  21.0.0-alpha.1 - 23.6.0
+      Depends on vulnerable versions of jest-config
+      Depends on vulnerable versions of jest-haste-map
+      Depends on vulnerable versions of jest-jasmine2
+      Depends on vulnerable versions of jest-message-util
+      Depends on vulnerable versions of jest-runtime
+      Depends on vulnerable versions of jest-util
+      node_modules/jest-runner
+      jest-runtime  14.1.0 - 24.8.0
+      Depends on vulnerable versions of babel-core
+      Depends on vulnerable versions of babel-plugin-istanbul
+      Depends on vulnerable versions of jest-config
+      Depends on vulnerable versions of jest-haste-map
+      Depends on vulnerable versions of jest-message-util
+      Depends on vulnerable versions of jest-snapshot
+      Depends on vulnerable versions of jest-util
+      Depends on vulnerable versions of micromatch
+      Depends on vulnerable versions of yargs
+      node_modules/jest-runtime
+    jest-haste-map  16.1.0-alpha.691b0e22 - 24.0.0
+    Depends on vulnerable versions of micromatch
+    Depends on vulnerable versions of sane
+    node_modules/jest-haste-map
+    jest-message-util  18.5.0-alpha.7da3df39 - 23.1.0 || 23.4.0 - 24.0.0-alpha.16
+    Depends on vulnerable versions of micromatch
+    node_modules/jest-message-util
+      expect  21.0.0-beta.1 - 22.4.3 || 23.4.0 - 23.6.0
+      Depends on vulnerable versions of jest-message-util
+      node_modules/expect
+        jest-jasmine2  18.5.0-alpha.7da3df39 - 22.4.4 || 23.4.0 - 23.6.0
+        Depends on vulnerable versions of expect
+        Depends on vulnerable versions of jest-message-util
+        Depends on vulnerable versions of jest-snapshot
+        Depends on vulnerable versions of jest-util
+        node_modules/jest-jasmine2
+      jest-snapshot  23.4.0 - 23.6.0
+      Depends on vulnerable versions of jest-message-util
+      node_modules/jest-snapshot
+        jest-resolve-dependencies  23.4.0 - 23.6.0
+        Depends on vulnerable versions of jest-snapshot
+        node_modules/jest-resolve-dependencies
+      jest-util  18.5.0-alpha.7da3df39 - 22.4.3 || 23.4.0
+      Depends on vulnerable versions of jest-message-util
+      node_modules/jest-util
+        jest-environment-jsdom  10.0.2 - 25.5.0
+        Depends on vulnerable versions of jest-util
+        Depends on vulnerable versions of jsdom
+        node_modules/jest-environment-jsdom
+        jest-environment-node  18.5.0-alpha.7da3df39 - 22.4.3 || 23.4.0
+        Depends on vulnerable versions of jest-util
+        node_modules/jest-environment-node
+    test-exclude  <=4.2.3
+    Depends on vulnerable versions of micromatch
+    node_modules/test-exclude
+      babel-plugin-istanbul  <=5.0.0
+      Depends on vulnerable versions of test-exclude
+      node_modules/babel-plugin-istanbul
+        babel-jest  14.2.0-alpha.ca8bfb6e - 24.0.0-alpha.16
+        Depends on vulnerable versions of babel-plugin-istanbul
+        node_modules/babel-jest
+
+browserslist  4.0.0 - 4.16.4
+Severity: moderate
+Regular Expression Denial of Service in browserslist - https://github.com/advisories/GHSA-w8qv-6jwh-64r5
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/@babel/compat-data/node_modules/browserslist
+node_modules/@babel/helper-compilation-targets/node_modules/browserslist
+node_modules/@babel/preset-env/node_modules/browserslist
+node_modules/autoprefixer/node_modules/browserslist
+node_modules/babel-preset-react-app/node_modules/browserslist
+node_modules/caniuse-api/node_modules/browserslist
+node_modules/core-js-compat/node_modules/browserslist
+node_modules/postcss-colormin/node_modules/browserslist
+node_modules/postcss-merge-rules/node_modules/browserslist
+node_modules/postcss-minify-params/node_modules/browserslist
+node_modules/postcss-normalize-unicode/node_modules/browserslist
+node_modules/postcss-preset-env/node_modules/browserslist
+node_modules/postcss-reduce-initial/node_modules/browserslist
+node_modules/react-dev-utils/node_modules/browserslist
+node_modules/stylehacks/node_modules/browserslist
+  react-dev-utils  0.4.0 - 12.0.0-next.60
+  Depends on vulnerable versions of browserslist
+  Depends on vulnerable versions of globby
+  Depends on vulnerable versions of immer
+  Depends on vulnerable versions of loader-utils
+  Depends on vulnerable versions of recursive-readdir
+  Depends on vulnerable versions of shell-quote
+  node_modules/react-dev-utils
+
+chownr  <1.1.0
+Time-of-check Time-of-use (TOCTOU) Race Condition in chownr - https://github.com/advisories/GHSA-c6rq-rjc2-86v2
+fix available via `npm audit fix`
+node_modules/fsevents/node_modules/chownr
+
+color-string  <1.5.5
+Severity: moderate
+Regular Expression Denial of Service (ReDOS) - https://github.com/advisories/GHSA-257v-vj4p-3w2h
+fix available via `npm audit fix`
+node_modules/color-string
+
+cookiejar  <2.1.4
+Severity: moderate
+cookiejar Regular Expression Denial of Service via Cookie.parse function - https://github.com/advisories/GHSA-h452-7996-h45h
+fix available via `npm audit fix`
+node_modules/cookiejar
+
+debug  3.2.0 - 3.2.6 || 4.0.0 - 4.3.0
+Severity: moderate
+Regular Expression Denial of Service in debug - https://github.com/advisories/GHSA-gxpj-cx7g-858c
+Regular Expression Denial of Service in debug - https://github.com/advisories/GHSA-gxpj-cx7g-858c
+fix available via `npm audit fix`
+node_modules/@babel/core/node_modules/debug
+node_modules/@babel/traverse/node_modules/debug
+node_modules/babel-preset-react-app/node_modules/debug
+node_modules/eslint/node_modules/debug
+node_modules/istanbul-lib-source-maps/node_modules/debug
+node_modules/mocha/node_modules/debug
+node_modules/portfinder/node_modules/debug
+node_modules/sockjs-client/node_modules/debug
+node_modules/spdy-transport/node_modules/debug
+node_modules/spdy/node_modules/debug
+node_modules/webpack-dev-server/node_modules/debug
+  mocha  5.1.0 - 9.2.1
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of minimatch
+  Depends on vulnerable versions of serialize-javascript
+  Depends on vulnerable versions of yargs-unparser
+  node_modules/mocha
+    truffle  5.1.9-nodeLTS.0 || 5.1.14-alphaTez.0 - 5.1.14-truffleLogger.0 || 5.1.34-next.0 - 5.1.41
+    Depends on vulnerable versions of mocha
+    node_modules/truffle
+
+decode-uri-component  <0.2.1
+Severity: high
+decode-uri-component vulnerable to Denial of Service (DoS) - https://github.com/advisories/GHSA-w573-4hg7-7wgq
+fix available via `npm audit fix`
+node_modules/decode-uri-component
+
+dns-packet  <1.3.2
+Severity: high
+Potential memory exposure in dns-packet - https://github.com/advisories/GHSA-3wcq-x3mq-6r9p
+fix available via `npm audit fix`
+node_modules/dns-packet
+
+elliptic  <6.5.4
+Severity: moderate
+Elliptic Uses a Broken or Risky Cryptographic Algorithm - https://github.com/advisories/GHSA-r9p9-mrjm-926w
+fix available via `npm audit fix`
+node_modules/elliptic
+  @ethersproject/signing-key  <=5.0.9
+  Depends on vulnerable versions of elliptic
+  node_modules/@ethersproject/signing-key
+
+eventsource  <1.1.1
+Severity: critical
+Exposure of Sensitive Information in eventsource - https://github.com/advisories/GHSA-6h5x-7c5m-7cr7
+fix available via `npm audit fix`
+node_modules/eventsource
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+fix available via `npm audit fix`
+node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/yargs-unparser
+
+follow-redirects  <=1.14.7
+Severity: high
+Exposure of sensitive information in follow-redirects - https://github.com/advisories/GHSA-74fj-2j2h-c42q
+Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects - https://github.com/advisories/GHSA-pw2r-vq6v-hr8c
+fix available via `npm audit fix`
+node_modules/follow-redirects
+
+fsevents  <=1.2.10
+Severity: critical
+Malware in fsevents - https://github.com/advisories/GHSA-xv2f-5jw4-v95m
+Code injection in fsevents - https://github.com/advisories/GHSA-8r6j-v8pm-fqw3
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/fsevents
+
+get-func-name  <2.0.1
+Severity: high
+Chaijs/get-func-name vulnerable to ReDoS - https://github.com/advisories/GHSA-4q6p-r6v2-jvc5
+fix available via `npm audit fix`
+node_modules/get-func-name
+
+glob-parent  <5.1.2
+Severity: high
+glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex - https://github.com/advisories/GHSA-ww39-953v-wcq6
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/chokidar/node_modules/glob-parent
+node_modules/fast-glob/node_modules/glob-parent
+node_modules/glob-parent
+node_modules/watchpack/node_modules/glob-parent
+  chokidar  1.0.0-rc1 - 2.1.8
+  Depends on vulnerable versions of glob-parent
+  node_modules/chokidar
+    fork-ts-checker-webpack-plugin-alt  *
+    Depends on vulnerable versions of chokidar
+    node_modules/fork-ts-checker-webpack-plugin-alt
+    watchpack-chokidar2  *
+    Depends on vulnerable versions of chokidar
+    node_modules/watchpack-chokidar2
+      watchpack  1.7.2 - 1.7.5
+      Depends on vulnerable versions of watchpack-chokidar2
+      node_modules/watchpack
+  fast-glob  <=2.2.7
+  Depends on vulnerable versions of glob-parent
+  node_modules/fast-glob
+    globby  8.0.0 - 9.2.0
+    Depends on vulnerable versions of fast-glob
+    node_modules/globby
+  glob-base  *
+  Depends on vulnerable versions of glob-parent
+  node_modules/glob-base
+    parse-glob  >=2.1.0
+    Depends on vulnerable versions of glob-base
+    node_modules/parse-glob
+
+got  <11.8.5
+Severity: moderate
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+fix available via `npm audit fix --force`
+Will install web3@1.10.2, which is outside the stated dependency range
+node_modules/got
+node_modules/swarm-js/node_modules/got
+  swarm-js  0.1.1 - 0.1.17 || >=0.1.35
+  Depends on vulnerable versions of eth-lib
+  Depends on vulnerable versions of got
+  node_modules/swarm-js
+  web3-bzz  <=1.7.4
+  Depends on vulnerable versions of got
+  Depends on vulnerable versions of underscore
+  node_modules/web3-bzz
+    web3  <=1.7.4 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of web3-bzz
+    Depends on vulnerable versions of web3-core
+    Depends on vulnerable versions of web3-eth
+    Depends on vulnerable versions of web3-eth-personal
+    Depends on vulnerable versions of web3-net
+    Depends on vulnerable versions of web3-shh
+    Depends on vulnerable versions of web3-utils
+    node_modules/web3
+
+handlebars  <=4.7.6
+Severity: critical
+Remote code execution in handlebars when compiling templates - https://github.com/advisories/GHSA-f2jv-r9rf-7988
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-765h-qjxv-5f44
+fix available via `npm audit fix`
+node_modules/handlebars
+
+hosted-git-info  <2.8.9
+Severity: moderate
+Regular Expression Denial of Service in hosted-git-info - https://github.com/advisories/GHSA-43f8-2h32-f4cj
+fix available via `npm audit fix`
+node_modules/hosted-git-info
+
+http-cache-semantics  <4.1.1
+Severity: high
+http-cache-semantics vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-rc47-6667-2j5j
+fix available via `npm audit fix`
+node_modules/http-cache-semantics
+
+immer  <=9.0.5
+Severity: critical
+Prototype Pollution in immer - https://github.com/advisories/GHSA-c36v-fmgq-m8hx
+Prototype Pollution in immer - https://github.com/advisories/GHSA-9qmh-276g-x5pj
+Prototype Pollution in immer - https://github.com/advisories/GHSA-33f9-j839-rf8h
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/immer
+
+ini  <1.3.6
+Severity: high
+ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
+fix available via `npm audit fix`
+node_modules/fsevents/node_modules/ini
+node_modules/ini
+
+is-svg  2.1.0 - 4.2.2
+Severity: high
+ReDOS in IS-SVG - https://github.com/advisories/GHSA-r8j5-h5cx-65gg
+Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-7r28-3m3f-r2pr
+fix available via `npm audit fix`
+node_modules/is-svg
+  postcss-svgo  4.0.0-nightly.2020.1.9 - 5.0.0-rc.2
+  Depends on vulnerable versions of is-svg
+  Depends on vulnerable versions of svgo
+  node_modules/postcss-svgo
+
+jsdom  <=16.5.3
+Severity: moderate
+Insufficient Granularity of Access Control in JSDom - https://github.com/advisories/GHSA-f4c9-cqv8-9v98
+Depends on vulnerable versions of request
+Depends on vulnerable versions of request-promise-native
+Depends on vulnerable versions of tough-cookie
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/jest-environment-jsdom/node_modules/jsdom
+node_modules/jsdom
+
+json-schema  <0.4.0
+Severity: critical
+json-schema is vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-896r-f27r-55mw
+fix available via `npm audit fix`
+node_modules/json-schema
+  jsprim  0.3.0 - 1.4.1 || 2.0.0 - 2.0.1
+  Depends on vulnerable versions of json-schema
+  node_modules/jsprim
+
+json5  <1.0.2 || >=2.0.0 <2.2.2
+Severity: high
+Prototype Pollution in JSON5 via Parse Method - https://github.com/advisories/GHSA-9c47-m6qq-7p4h
+Prototype Pollution in JSON5 via Parse Method - https://github.com/advisories/GHSA-9c47-m6qq-7p4h
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/@babel/core/node_modules/json5
+node_modules/babel-preset-react-app/node_modules/json5
+node_modules/json5
+node_modules/loader-utils/node_modules/json5
+node_modules/react-dev-utils/node_modules/json5
+  babel-core  5.8.20 - 7.0.0-beta.3
+  Depends on vulnerable versions of babel-register
+  Depends on vulnerable versions of json5
+  node_modules/babel-core
+    babel-register  *
+    Depends on vulnerable versions of babel-core
+    node_modules/babel-register
+
+loader-utils  <=1.4.1
+Severity: critical
+loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable - https://github.com/advisories/GHSA-3rfm-jhwj-7488
+loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-hhq3-ff78-jv3g
+Prototype pollution in webpack loader-utils - https://github.com/advisories/GHSA-76p3-8jx3-jpfq
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/loader-utils
+node_modules/react-dev-utils/node_modules/loader-utils
+
+lodash  <=4.17.20
+Severity: high
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-p6mc-m468-83gw
+Command Injection in lodash - https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+Regular Expression Denial of Service (ReDoS) in lodash - https://github.com/advisories/GHSA-29mw-wpgm-hmr9
+fix available via `npm audit fix`
+node_modules/lodash
+
+merge  <2.1.1
+Severity: high
+Prototype Pollution in merge - https://github.com/advisories/GHSA-7wpw-2hjm-89gp
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/merge
+  exec-sh  <=0.3.1
+  Depends on vulnerable versions of merge
+  node_modules/exec-sh
+    sane  1.0.4 - 4.0.2
+    Depends on vulnerable versions of exec-sh
+    Depends on vulnerable versions of watch
+    node_modules/sane
+    watch  >=0.14.0
+    Depends on vulnerable versions of exec-sh
+    node_modules/watch
+
+merge-deep  <3.0.3
+Severity: critical
+Prototype pollution in Merge-deep - https://github.com/advisories/GHSA-r6rj-9ch6-g264
+fix available via `npm audit fix`
+node_modules/merge-deep
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/fsevents/node_modules/minimatch
+node_modules/minimatch
+  recursive-readdir  1.2.0 - 2.2.2
+  Depends on vulnerable versions of minimatch
+  node_modules/recursive-readdir
+
+minimist  <=0.2.3 || 1.0.0 - 1.2.5
+Severity: critical
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-xvch-5gv4-984h
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-xvch-5gv4-984h
+fix available via `npm audit fix`
+node_modules/fsevents/node_modules/minimist
+node_modules/fsevents/node_modules/rc/node_modules/minimist
+node_modules/minimist
+  mkdirp  0.4.1 - 0.5.1
+  Depends on vulnerable versions of minimist
+  node_modules/fsevents/node_modules/mkdirp
+
+node-fetch  <=2.6.6
+Severity: high
+The `size` option isn't honored after following a redirect in node-fetch - https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+node-fetch forwards secure headers to untrusted sites - https://github.com/advisories/GHSA-r683-j2x4-v87g
+fix available via `npm audit fix --force`
+Will install react-bootstrap@1.6.7, which is outside the stated dependency range
+node_modules/node-fetch
+  isomorphic-fetch  2.0.0 - 2.2.1
+  Depends on vulnerable versions of node-fetch
+  node_modules/isomorphic-fetch
+    fbjs  0.7.0 - 1.0.0
+    Depends on vulnerable versions of isomorphic-fetch
+    node_modules/fbjs
+      create-react-context  0.2.0 - 0.2.3
+      Depends on vulnerable versions of fbjs
+      node_modules/create-react-context
+        @react-bootstrap/react-popper  *
+        Depends on vulnerable versions of create-react-context
+        node_modules/@react-bootstrap/react-popper
+          react-bootstrap  1.0.0-beta.0 - 1.0.0-beta.17
+          Depends on vulnerable versions of @react-bootstrap/react-popper
+          node_modules/react-bootstrap
+
+node-forge  <=1.2.1
+Severity: high
+Prototype Pollution in node-forge debug API. - https://github.com/advisories/GHSA-5rrq-pxf6-6jx5
+Prototype Pollution in node-forge util.setPath API - https://github.com/advisories/GHSA-wxgw-qj99-44c2
+URL parsing in node-forge could lead to undesired behavior. - https://github.com/advisories/GHSA-gf8q-jrpm-jvxq
+Improper Verification of Cryptographic Signature in `node-forge` - https://github.com/advisories/GHSA-2r2c-g63r-vccr
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-cfm4-qjh2-4765
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-x4jg-mjrx-434g
+Prototype Pollution in node-forge - https://github.com/advisories/GHSA-92xj-mqp7-vmcj
+Open Redirect in node-forge - https://github.com/advisories/GHSA-8fr3-hfg3-gpgp
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/node-forge
+  selfsigned  1.1.1 - 1.10.14
+  Depends on vulnerable versions of node-forge
+  node_modules/selfsigned
+
+node-notifier  <8.0.1
+Severity: moderate
+OS Command Injection in node-notifier - https://github.com/advisories/GHSA-5fw9-fq32-wv5p
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/node-notifier
+
+normalize-url  4.3.0 - 4.5.0
+Severity: high
+ReDoS in normalize-url - https://github.com/advisories/GHSA-px4h-xg32-q955
+fix available via `npm audit fix`
+node_modules/cacheable-request/node_modules/normalize-url
+
+nth-check  <2.0.1
+Severity: high
+Inefficient Regular Expression Complexity in nth-check - https://github.com/advisories/GHSA-rp65-9cf3-cjxr
+fix available via `npm audit fix`
+node_modules/nth-check
+  css-select  <=3.1.0
+  Depends on vulnerable versions of nth-check
+  node_modules/css-select
+  node_modules/renderkid/node_modules/css-select
+    renderkid  1.0.0 - 2.0.5
+    Depends on vulnerable versions of css-select
+    node_modules/renderkid
+    svgo  1.0.0 - 1.3.2
+    Depends on vulnerable versions of css-select
+    node_modules/svgo
+      @svgr/core  <=3.1.0
+      Depends on vulnerable versions of svgo
+      node_modules/@svgr/core
+        @svgr/webpack  <=3.1.0
+        Depends on vulnerable versions of @svgr/core
+        node_modules/@svgr/webpack
+
+path-parse  <1.0.7
+Severity: moderate
+Regular Expression Denial of Service in path-parse - https://github.com/advisories/GHSA-hj48-42vr-x3v9
+fix available via `npm audit fix`
+node_modules/path-parse
+
+pathval  <1.1.1
+Severity: high
+Prototype pollution in pathval - https://github.com/advisories/GHSA-g6ww-v8xp-vmwg
+fix available via `npm audit fix`
+node_modules/pathval
+
+postcss  <=8.4.30
+Severity: moderate
+Regular Expression Denial of Service in postcss - https://github.com/advisories/GHSA-hwj9-h5mp-3pm3
+Regular Expression Denial of Service in postcss - https://github.com/advisories/GHSA-566m-qj78-rww5
+PostCSS line return parsing error - https://github.com/advisories/GHSA-7fh5-64p2-3v2j
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/autoprefixer/node_modules/postcss
+node_modules/css-declaration-sorter/node_modules/postcss
+node_modules/cssnano-preset-default/node_modules/postcss
+node_modules/cssnano-util-raw-cache/node_modules/postcss
+node_modules/cssnano/node_modules/postcss
+node_modules/postcss
+node_modules/postcss-attribute-case-insensitive/node_modules/postcss
+node_modules/postcss-calc/node_modules/postcss
+node_modules/postcss-color-functional-notation/node_modules/postcss
+node_modules/postcss-color-gray/node_modules/postcss
+node_modules/postcss-color-hex-alpha/node_modules/postcss
+node_modules/postcss-color-mod-function/node_modules/postcss
+node_modules/postcss-color-rebeccapurple/node_modules/postcss
+node_modules/postcss-colormin/node_modules/postcss
+node_modules/postcss-convert-values/node_modules/postcss
+node_modules/postcss-custom-media/node_modules/postcss
+node_modules/postcss-custom-properties/node_modules/postcss
+node_modules/postcss-custom-selectors/node_modules/postcss
+node_modules/postcss-dir-pseudo-class/node_modules/postcss
+node_modules/postcss-discard-comments/node_modules/postcss
+node_modules/postcss-discard-duplicates/node_modules/postcss
+node_modules/postcss-discard-empty/node_modules/postcss
+node_modules/postcss-discard-overridden/node_modules/postcss
+node_modules/postcss-double-position-gradients/node_modules/postcss
+node_modules/postcss-env-function/node_modules/postcss
+node_modules/postcss-flexbugs-fixes/node_modules/postcss
+node_modules/postcss-focus-visible/node_modules/postcss
+node_modules/postcss-focus-within/node_modules/postcss
+node_modules/postcss-font-variant/node_modules/postcss
+node_modules/postcss-gap-properties/node_modules/postcss
+node_modules/postcss-image-set-function/node_modules/postcss
+node_modules/postcss-initial/node_modules/postcss
+node_modules/postcss-lab-function/node_modules/postcss
+node_modules/postcss-loader/node_modules/postcss
+node_modules/postcss-logical/node_modules/postcss
+node_modules/postcss-media-minmax/node_modules/postcss
+node_modules/postcss-merge-longhand/node_modules/postcss
+node_modules/postcss-merge-rules/node_modules/postcss
+node_modules/postcss-minify-font-values/node_modules/postcss
+node_modules/postcss-minify-gradients/node_modules/postcss
+node_modules/postcss-minify-params/node_modules/postcss
+node_modules/postcss-minify-selectors/node_modules/postcss
+node_modules/postcss-nesting/node_modules/postcss
+node_modules/postcss-normalize-charset/node_modules/postcss
+node_modules/postcss-normalize-display-values/node_modules/postcss
+node_modules/postcss-normalize-positions/node_modules/postcss
+node_modules/postcss-normalize-repeat-style/node_modules/postcss
+node_modules/postcss-normalize-string/node_modules/postcss
+node_modules/postcss-normalize-timing-functions/node_modules/postcss
+node_modules/postcss-normalize-unicode/node_modules/postcss
+node_modules/postcss-normalize-url/node_modules/postcss
+node_modules/postcss-normalize-whitespace/node_modules/postcss
+node_modules/postcss-ordered-values/node_modules/postcss
+node_modules/postcss-overflow-shorthand/node_modules/postcss
+node_modules/postcss-page-break/node_modules/postcss
+node_modules/postcss-place/node_modules/postcss
+node_modules/postcss-preset-env/node_modules/postcss
+node_modules/postcss-pseudo-class-any-link/node_modules/postcss
+node_modules/postcss-reduce-initial/node_modules/postcss
+node_modules/postcss-reduce-transforms/node_modules/postcss
+node_modules/postcss-replace-overflow-wrap/node_modules/postcss
+node_modules/postcss-safe-parser/node_modules/postcss
+node_modules/postcss-selector-matches/node_modules/postcss
+node_modules/postcss-selector-not/node_modules/postcss
+node_modules/postcss-svgo/node_modules/postcss
+node_modules/postcss-unique-selectors/node_modules/postcss
+node_modules/stylehacks/node_modules/postcss
+  css-loader  0.15.0 - 1.0.1
+  Depends on vulnerable versions of icss-utils
+  Depends on vulnerable versions of postcss
+  Depends on vulnerable versions of postcss-modules-extract-imports
+  Depends on vulnerable versions of postcss-modules-local-by-default
+  Depends on vulnerable versions of postcss-modules-scope
+  Depends on vulnerable versions of postcss-modules-values
+  node_modules/css-loader
+  icss-utils  <=3.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/icss-utils
+  postcss-modules-extract-imports  <=1.2.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-modules-extract-imports
+  postcss-modules-local-by-default  <=1.2.0
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-modules-local-by-default
+  postcss-modules-scope  <=1.1.0
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-modules-scope
+  postcss-modules-values  <=1.3.0
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-modules-values
+
+qs  6.5.0 - 6.5.2 || 6.7.0 - 6.7.2
+Severity: high
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+fix available via `npm audit fix`
+node_modules/body-parser/node_modules/qs
+node_modules/express/node_modules/qs
+node_modules/qs
+  body-parser  1.19.0
+  Depends on vulnerable versions of qs
+  node_modules/body-parser
+  express  4.17.0 - 4.17.1 || 5.0.0-alpha.1 - 5.0.0-alpha.8
+  Depends on vulnerable versions of body-parser
+  Depends on vulnerable versions of qs
+  node_modules/express
+
+
+request  *
+Severity: moderate
+Server-Side Request Forgery in Request - https://github.com/advisories/GHSA-p8p7-x288-28g6
+Depends on vulnerable versions of tough-cookie
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/request
+  request-promise-core  *
+  Depends on vulnerable versions of request
+  node_modules/request-promise-core
+    request-promise-native  >=1.0.0
+    Depends on vulnerable versions of request
+    Depends on vulnerable versions of request-promise-core
+    Depends on vulnerable versions of tough-cookie
+    node_modules/request-promise-native
+  servify  *
+  Depends on vulnerable versions of request
+  node_modules/servify
+    eth-lib  0.1.24 - 0.1.29
+    Depends on vulnerable versions of servify
+    node_modules/eth-lib
+
+semver  <5.7.2 || >=7.0.0 <7.5.2
+Severity: moderate
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+fix available via `npm audit fix`
+node_modules/core-js-compat/node_modules/semver
+node_modules/fsevents/node_modules/semver
+node_modules/semver
+  core-js-compat  3.6.0 - 3.25.0
+  Depends on vulnerable versions of semver
+  node_modules/core-js-compat
+
+serialize-javascript  <=3.0.0
+Severity: high
+Cross-Site Scripting in serialize-javascript - https://github.com/advisories/GHSA-h9rv-jmmf-4pgx
+Insecure serialization leading to RCE in serialize-javascript - https://github.com/advisories/GHSA-hxcc-f52p-wc94
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/mocha/node_modules/serialize-javascript
+node_modules/serialize-javascript
+  terser-webpack-plugin  <=1.4.3 || 2.0.0 - 2.3.5
+  Depends on vulnerable versions of serialize-javascript
+  Depends on vulnerable versions of terser
+  node_modules/terser-webpack-plugin
+  uglifyjs-webpack-plugin  >=1.1.3
+  Depends on vulnerable versions of cacache
+  Depends on vulnerable versions of serialize-javascript
+  node_modules/uglifyjs-webpack-plugin
+    webpack  4.3.0 - 4.25.1
+    Depends on vulnerable versions of uglifyjs-webpack-plugin
+    node_modules/webpack
+
+shell-quote  <=1.7.2
+Severity: critical
+Improper Neutralization of Special Elements used in a Command in Shell-quote - https://github.com/advisories/GHSA-g4rg-993r-mgx7
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/shell-quote
+
+simple-get  <2.8.2
+Severity: high
+Exposure of Sensitive Information in simple-get - https://github.com/advisories/GHSA-wpg7-2c88-r8xv
+fix available via `npm audit fix`
+node_modules/simple-get
+
+sockjs  <0.3.20
+Severity: moderate
+Improper Input Validation in SocksJS-Node - https://github.com/advisories/GHSA-c9g6-9335-x697
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/sockjs
+
+ssri  5.2.2 - 6.0.1
+Severity: high
+Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-vx3p-948g-6vhq
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/ssri
+node_modules/uglifyjs-webpack-plugin/node_modules/ssri
+  cacache  10.0.4 - 11.0.0
+  Depends on vulnerable versions of ssri
+  node_modules/uglifyjs-webpack-plugin/node_modules/cacache
+
+tar  <=4.4.17
+Severity: high
+Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization - https://github.com/advisories/GHSA-3jfq-g458-7qm9
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning - https://github.com/advisories/GHSA-r628-mhmh-qjhw
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links - https://github.com/advisories/GHSA-9r2w-394v-53qc
+Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization - https://github.com/advisories/GHSA-5955-9wpr-37jh
+Arbitrary File Overwrite in tar - https://github.com/advisories/GHSA-j44m-qm6p-hp7m
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links - https://github.com/advisories/GHSA-qq89-hq3f-393p
+fix available via `npm audit fix`
+node_modules/fsevents/node_modules/tar
+node_modules/tar
+
+terser  <4.8.1
+Severity: high
+Terser insecure use of regular expressions leads to ReDoS - https://github.com/advisories/GHSA-4wf5-vphf-c2xc
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/terser
+
+tmpl  <1.0.5
+Severity: high
+tmpl vulnerable to Inefficient Regular Expression Complexity which may lead to resource exhaustion - https://github.com/advisories/GHSA-jgrx-mgxx-jf9v
+fix available via `npm audit fix`
+node_modules/tmpl
+
+tough-cookie  <4.1.3
+Severity: moderate
+tough-cookie Prototype Pollution vulnerability - https://github.com/advisories/GHSA-72xf-g2v4-qvf3
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/jest-environment-jsdom/node_modules/tough-cookie
+node_modules/request-promise-native/node_modules/tough-cookie
+node_modules/request/node_modules/tough-cookie
+node_modules/tough-cookie
+
+ua-parser-js  <=0.7.32
+Severity: high
+Regular Expression Denial of Service in ua-parser-js - https://github.com/advisories/GHSA-662x-fhqg-9p8v
+ua-parser-js Regular Expression Denial of Service vulnerability - https://github.com/advisories/GHSA-394c-5j6w-4xmx
+Regular Expression Denial of Service (ReDoS) in ua-parser-js - https://github.com/advisories/GHSA-78cj-fxph-m83p
+ReDoS Vulnerability in ua-parser-js version - https://github.com/advisories/GHSA-fhg7-m89q-25r3
+fix available via `npm audit fix`
+node_modules/ua-parser-js
+
+underscore  1.3.2 - 1.12.0
+Severity: critical
+Arbitrary Code Execution in underscore - https://github.com/advisories/GHSA-cf4h-3jhx-xvhq
+fix available via `npm audit fix --force`
+Will install web3@1.10.2, which is outside the stated dependency range
+node_modules/underscore
+  web3-core-helpers  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+  Depends on vulnerable versions of underscore
+  Depends on vulnerable versions of web3-eth-iban
+  Depends on vulnerable versions of web3-utils
+  node_modules/web3-core-helpers
+    web3-core-subscriptions  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of underscore
+    Depends on vulnerable versions of web3-core-helpers
+    node_modules/web3-core-subscriptions
+    web3-providers-http  <=1.0.0 || 1.2.0 - 1.3.5 || 3.0.0-rc.0 - 3.0.0-rc.4
+    Depends on vulnerable versions of web3-core-helpers
+    node_modules/web3-providers-http
+    web3-providers-ipc  <=1.3.6-rc.2 || 3.0.0-rc.0 - 3.0.0-rc.5
+    Depends on vulnerable versions of underscore
+    Depends on vulnerable versions of web3-core-helpers
+    node_modules/web3-providers-ipc
+    web3-providers-ws  <=1.3.6-rc.2 || 3.0.0-rc.0 - 3.0.0-rc.4
+    Depends on vulnerable versions of underscore
+    Depends on vulnerable versions of web3-core-helpers
+    node_modules/web3-providers-ws
+  web3-core-method  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+  Depends on vulnerable versions of underscore
+  Depends on vulnerable versions of web3-core-helpers
+  Depends on vulnerable versions of web3-core-subscriptions
+  Depends on vulnerable versions of web3-utils
+  node_modules/web3-core-method
+    web3-core  <=1.3.5 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of web3-core-helpers
+    Depends on vulnerable versions of web3-core-method
+    Depends on vulnerable versions of web3-core-requestmanager
+    Depends on vulnerable versions of web3-utils
+    node_modules/web3-core
+      web3-eth-ens  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+      Depends on vulnerable versions of underscore
+      Depends on vulnerable versions of web3-core
+      Depends on vulnerable versions of web3-core-helpers
+      Depends on vulnerable versions of web3-eth-abi
+      Depends on vulnerable versions of web3-eth-contract
+      Depends on vulnerable versions of web3-utils
+      node_modules/web3-eth-ens
+        web3-eth  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+        Depends on vulnerable versions of underscore
+        Depends on vulnerable versions of web3-core
+        Depends on vulnerable versions of web3-core-helpers
+        Depends on vulnerable versions of web3-core-method
+        Depends on vulnerable versions of web3-core-subscriptions
+        Depends on vulnerable versions of web3-eth-abi
+        Depends on vulnerable versions of web3-eth-accounts
+        Depends on vulnerable versions of web3-eth-contract
+        Depends on vulnerable versions of web3-eth-ens
+        Depends on vulnerable versions of web3-eth-iban
+        Depends on vulnerable versions of web3-eth-personal
+        Depends on vulnerable versions of web3-net
+        Depends on vulnerable versions of web3-utils
+        node_modules/web3-eth
+    web3-eth-personal  <=1.3.5 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of web3-core
+    Depends on vulnerable versions of web3-core-helpers
+    Depends on vulnerable versions of web3-core-method
+    Depends on vulnerable versions of web3-net
+    Depends on vulnerable versions of web3-utils
+    node_modules/web3-eth-personal
+    web3-net  1.2.0 - 1.3.5 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of web3-core
+    Depends on vulnerable versions of web3-core-method
+    Depends on vulnerable versions of web3-utils
+    node_modules/web3-net
+      web3-shh  <=1.3.5
+      Depends on vulnerable versions of web3-core
+      Depends on vulnerable versions of web3-core-method
+      Depends on vulnerable versions of web3-core-subscriptions
+      Depends on vulnerable versions of web3-net
+      node_modules/web3-shh
+  web3-core-requestmanager  <=1.3.5 || 3.0.0-rc.0 - 3.0.0-rc.4
+  Depends on vulnerable versions of underscore
+  Depends on vulnerable versions of web3-core-helpers
+  Depends on vulnerable versions of web3-providers-http
+  Depends on vulnerable versions of web3-providers-ipc
+  Depends on vulnerable versions of web3-providers-ws
+  node_modules/web3-core-requestmanager
+  web3-eth-abi  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+  Depends on vulnerable versions of underscore
+  Depends on vulnerable versions of web3-utils
+  node_modules/web3-eth-abi
+    web3-eth-contract  <=1.3.6-rc.2 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of underscore
+    Depends on vulnerable versions of web3-core
+    Depends on vulnerable versions of web3-core-helpers
+    Depends on vulnerable versions of web3-core-method
+    Depends on vulnerable versions of web3-core-subscriptions
+    Depends on vulnerable versions of web3-eth-abi
+    Depends on vulnerable versions of web3-utils
+    node_modules/web3-eth-contract
+  web3-eth-accounts  <=1.3.5 || 2.0.0-alpha - 3.0.0-rc.4
+  Depends on vulnerable versions of underscore
+  Depends on vulnerable versions of web3-core
+  Depends on vulnerable versions of web3-core-helpers
+  Depends on vulnerable versions of web3-core-method
+  Depends on vulnerable versions of web3-utils
+  node_modules/web3-eth-accounts
+  web3-utils  1.0.0-beta.8 - 1.3.5 || 2.0.0-alpha - 3.0.0-rc.4
+  Depends on vulnerable versions of underscore
+  node_modules/web3-utils
+    web3-eth-iban  <=1.3.5 || 2.0.0-alpha - 3.0.0-rc.4
+    Depends on vulnerable versions of web3-utils
+    node_modules/web3-eth-iban
+
+url-parse  <=1.5.8
+Severity: critical
+Authorization bypass in url-parse - https://github.com/advisories/GHSA-rqff-837h-mm52
+Open redirect in url-parse - https://github.com/advisories/GHSA-hh27-ffr2-f2jc
+Path traversal in url-parse - https://github.com/advisories/GHSA-9m6j-fcg5-2442
+Authorization Bypass Through User-Controlled Key in url-parse - https://github.com/advisories/GHSA-hgjh-723h-mx2j
+url-parse incorrectly parses hostname / protocol due to unstripped leading control characters. - https://github.com/advisories/GHSA-jf5r-8hm2-f872
+url-parse Incorrectly parses URLs that include an '@' - https://github.com/advisories/GHSA-8v38-pw62-9cw2
+fix available via `npm audit fix`
+node_modules/url-parse
+
+
+word-wrap  <1.2.4
+Severity: moderate
+word-wrap vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-j8xg-fqg3-53r7
+fix available via `npm audit fix`
+node_modules/word-wrap
+
+ws  5.0.0 - 5.2.2 || 7.0.0 - 7.4.5
+Severity: moderate
+ReDoS in Sec-Websocket-Protocol header - https://github.com/advisories/GHSA-6fc8-4gx4-v693
+ReDoS in Sec-Websocket-Protocol header - https://github.com/advisories/GHSA-6fc8-4gx4-v693
+fix available via `npm audit fix`
+node_modules/jest-environment-jsdom/node_modules/ws
+node_modules/ws
+
+y18n  =4.0.0 || <3.2.2
+Severity: high
+Prototype Pollution in y18n - https://github.com/advisories/GHSA-c4w7-xm78-47vh
+Prototype Pollution in y18n - https://github.com/advisories/GHSA-c4w7-xm78-47vh
+fix available via `npm audit fix`
+node_modules/cacache/node_modules/y18n
+node_modules/uglifyjs-webpack-plugin/node_modules/y18n
+node_modules/y18n
+
+yargs-parser  6.0.0 - 13.1.1
+Severity: moderate
+yargs-parser Vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-p9pc-299p-vxgp
+fix available via `npm audit fix --force`
+Will install react-scripts@5.0.1, which is a breaking change
+node_modules/webpack-dev-server/node_modules/yargs-parser
+node_modules/yargs-parser
+  yargs  8.0.0-candidate.0 - 12.0.5
+  Depends on vulnerable versions of yargs-parser
+  node_modules/webpack-dev-server/node_modules/yargs
+  node_modules/yargs
+
+153 vulnerabilities (13 low, 35 moderate, 67 high, 38 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+smraddhi@smraddhis-MacBook-Air defi-staking-app-starter % 

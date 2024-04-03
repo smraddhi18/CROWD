@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ether": "^0.0.9",
+    "ethers": "^6.8.0",
+    "fs-extra": "^11.1.1",
+    "solc": "^0.8.19"
+  },
+  "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
+}

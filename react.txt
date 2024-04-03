@@ -1,0 +1,42 @@
+Last login: Sat Oct 14 09:49:11 on console
+smraddhi@smraddhis-MacBook-Air ~ % node --version
+v20.5.0
+smraddhi@smraddhis-MacBook-Air ~ % cd Documents 
+smraddhi@smraddhis-MacBook-Air Documents % touch react
+smraddhi@smraddhis-MacBook-Air Documents % cd react
+cd: not a directory: react
+smraddhi@smraddhis-MacBook-Air Documents % mkdir react
+mkdir: react: File exists
+smraddhi@smraddhis-MacBook-Air Documents % rm react
+smraddhi@smraddhis-MacBook-Air Documents % mkdir react
+smraddhi@smraddhis-MacBook-Air Documents % cd react
+smraddhi@smraddhis-MacBook-Air react % npm crate vite@4.1.0
+Unknown command: "crate"
+
+To see a list of supported npm commands, run:
+  npm help
+smraddhi@smraddhis-MacBook-Air react % npm create vite@4.1.0
+Need to install the following packages:
+  create-vite@4.1.0
+Ok to proceed? (y) y
+✔ Project name: … vite-project
+✔ Select a framework: › React
+✔ Select a variant: › TypeScript
+
+Scaffolding project in /Users/smraddhi/Documents/react/vite-project...
+
+Done. Now run:
+
+  cd vite-project
+  npm install
+  npm run dev
+
+smraddhi@smraddhis-MacBook-Air react % npm i       
+
+added 127 packages, and audited 128 packages in 5s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+smraddhi@smraddhis-MacBook-Air react % code 

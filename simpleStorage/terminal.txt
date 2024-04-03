@@ -1,0 +1,289 @@
+smraddhi@smraddhis-MacBook-Air B % npm install node_module
+(node:34092) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+added 1 package, and audited 2 packages in 41s
+
+found 0 vulnerabilities
+smraddhi@smraddhis-MacBook-Air B % npm install express
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:34266) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+added 58 packages in 5m
+
+9 packages are looking for funding
+  run `npm fund` for details
+smraddhi@smraddhis-MacBook-Air B % rm -r node_modules
+smraddhi@smraddhis-MacBook-Air B % npm install solc@latest
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:35097) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+added 9 packages in 34s
+
+1 package is looking for funding
+  run `npm fund` for details
+smraddhi@smraddhis-MacBook-Air B % solcjs --versio
+error: unknown option '--versio'
+smraddhi@smraddhis-MacBook-Air B % solcjs --version
+0.8.21+commit.d9974bed.Emscripten.clang
+smraddhi@smraddhis-MacBook-Air B % solcjs --help
+Usage: solcjs [options]
+
+Options:
+  -V, --version                        output the version number
+  --version                            Show version and exit.
+  --optimize                           Enable bytecode optimizer. (default: false)
+  --optimize-runs <optimize-runs>      The number of runs specifies roughly how often each opcode of the deployed code will be
+                                       executed across the lifetime of the contract. Lower values will optimize more for initial
+                                       deployment cost, higher values will optimize more for high-frequency usage.
+  --bin                                Binary of the contracts in hex.
+  --abi                                ABI of the contracts.
+  --standard-json                      Turn on Standard JSON Input / Output mode.
+  --base-path <path>                   Root of the project source tree. The import callback will attempt to interpret all import
+                                       paths as relative to this directory.
+  --include-path <path...>             Extra source directories available to the import callback. When using a package manager to
+                                       install libraries, use this option to specify directories where packages are installed. Can
+                                       be used multiple times to provide multiple locations.
+  -o, --output-dir <output-directory>  Output directory for the contracts.
+  -p, --pretty-json                    Pretty-print all JSON output. (default: false)
+  -v, --verbose                        More detailed console output. (default: false)
+  -h, --help                           display help for command
+smraddhi@smraddhis-MacBook-Air B % npm solcjs --version
+9.8.0
+smraddhi@smraddhis-MacBook-Air B % npm solcjs --help   
+Unknown command: "solcjs"
+
+To see a list of supported npm commands, run:
+  npm help
+smraddhi@smraddhis-MacBook-Air B % npm help
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term>
+npm help npm       more involved overview
+
+All commands:
+
+    access, adduser, audit, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    help-search, hook, init, install, install-ci-test,
+    install-test, link, ll, login, logout, ls, org, outdated,
+    owner, pack, ping, pkg, prefix, profile, prune, publish,
+    query, rebuild, repo, restart, root, run-script, search,
+    set, shrinkwrap, star, stars, start, stop, team, test,
+    token, uninstall, unpublish, unstar, update, version, view,
+    whoami
+
+Specify configs in the ini-formatted file:
+    /Users/smraddhi/.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@9.8.0 /opt/homebrew/lib/node_modules/npm
+smraddhi@smraddhis-MacBook-Air B % npm solcjs --help   
+Unknown command: "solcjs"
+
+To see a list of supported npm commands, run:
+  npm help
+smraddhi@smraddhis-MacBook-Air B % solcjs --help       
+Usage: solcjs [options]
+
+Options:
+  -V, --version                        output the version number
+  --version                            Show version and exit.
+  --optimize                           Enable bytecode optimizer. (default: false)
+  --optimize-runs <optimize-runs>      The number of runs specifies roughly how often each opcode of the deployed code will be
+                                       executed across the lifetime of the contract. Lower values will optimize more for initial
+                                       deployment cost, higher values will optimize more for high-frequency usage.
+  --bin                                Binary of the contracts in hex.
+  --abi                                ABI of the contracts.
+  --standard-json                      Turn on Standard JSON Input / Output mode.
+  --base-path <path>                   Root of the project source tree. The import callback will attempt to interpret all import
+                                       paths as relative to this directory.
+  --include-path <path...>             Extra source directories available to the import callback. When using a package manager to
+                                       install libraries, use this option to specify directories where packages are installed. Can
+                                       be used multiple times to provide multiple locations.
+  -o, --output-dir <output-directory>  Output directory for the contracts.
+  -p, --pretty-json                    Pretty-print all JSON output. (default: false)
+  -v, --verbose                        More detailed console output. (default: false)
+  -h, --help                           display help for command
+smraddhi@smraddhis-MacBook-Air B % solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol 
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> SimpleStorage.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.21;"
+--> SimpleStorage.sol
+
+
+smraddhi@smraddhis-MacBook-Air B % solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol 
+smraddhi@smraddhis-MacBook-Air B % compile
+zsh: command not found: compile
+smraddhi@smraddhis-MacBook-Air B % compile
+zsh: command not found: compile
+smraddhi@smraddhis-MacBook-Air B % npm compile
+Unknown command: "compile"
+
+To see a list of supported npm commands, run:
+  npm help
+smraddhi@smraddhis-MacBook-Air B % solcjs compiler
+Invalid option selected, must specify either --bin or --abi
+smraddhi@smraddhis-MacBook-Air B % solcjs compile 
+Invalid option selected, must specify either --bin or --abi
+smraddhi@smraddhis-MacBook-Air B % npm install --save ether
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:39797) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+npm WARN deprecated formidable@1.0.14: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated superagent@0.16.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+
+added 30 packages, and audited 40 packages in 19s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (1 moderate, 6 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+smraddhi@smraddhis-MacBook-Air B % npm install fs-extra
+
+added 4 packages, and audited 44 packages in 4s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (1 moderate, 6 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+smraddhi@smraddhis-MacBook-Air B % node deploy.js
+node:internal/modules/cjs/loader:1051
+  throw err;
+  ^
+
+Error: Cannot find module 'ethers'
+Require stack:
+- /Users/smraddhi/Documents/B/deploy.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (/Users/smraddhi/Documents/B/deploy.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/smraddhi/Documents/B/deploy.js' ]
+}
+
+Node.js v20.5.0
+smraddhi@smraddhis-MacBook-Air B % node deploy.js
+TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+    at main (/Users/smraddhi/Documents/B/deploy.js:16:42)
+    at Object.<anonymous> (/Users/smraddhi/Documents/B/deploy.js:35:1)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+smraddhi@smraddhis-MacBook-Air B % npm install --save ethers
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:41099) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+added 8 packages, and audited 52 packages in 36s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (1 moderate, 6 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+smraddhi@smraddhis-MacBook-Air B % node deploy.js
+TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+    at main (/Users/smraddhi/Documents/B/deploy.js:16:42)
+    at Object.<anonymous> (/Users/smraddhi/Documents/B/deploy.js:35:1)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+smraddhi@smraddhis-MacBook-Air B % node deploy.js
+TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+    at main (/Users/smraddhi/Documents/B/deploy.js:16:43)
+    at Object.<anonymous> (/Users/smraddhi/Documents/B/deploy.js:35:1)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+smraddhi@smraddhis-MacBook-Air B % npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating ether to 0.0.2, which is a SemVer major change.
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/ether/-/ether-0.0.2.tgz - Not found
+npm ERR! 404 
+npm ERR! 404  'ether@https://registry.npmjs.org/ether/-/ether-0.0.2.tgz' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /Users/smraddhi/.npm/_logs/2023-10-17T12_50_22_358Z-debug-0.log
+smraddhi@smraddhis-MacBook-Air B % 

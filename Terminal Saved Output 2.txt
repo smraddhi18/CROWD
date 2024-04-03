@@ -1,0 +1,591 @@
+ pLast login: Wed Sep 20 00:19:17 on ttys002
+smraddhi@smraddhis-MacBook-Air ~ % node -v
+v20.5.0
+smraddhi@smraddhis-MacBook-Air ~ % npm -g install truffle 
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:31230) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
+npm WARN deprecated apollo-server-types@3.8.0: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-plugin-base@3.7.2: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-errors@3.3.1: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-env@4.2.1: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-datasource@3.3.2: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-reporting-protobuf@3.4.0: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-core@3.12.1: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-express@3.12.1: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated testrpc@0.0.1: testrpc has been renamed to ganache-cli, please use this package from now on.
+npm WARN deprecated @ensdomains/ens@0.4.5: Please use @ensdomains/ens-contracts
+npm WARN deprecated @ensdomains/resolver@0.2.4: Please use @ensdomains/ens-contracts
+npm WARN deprecated apollo-server@3.12.1: The `apollo-server` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+added 1146 packages in 6m
+
+90 packages are looking for funding
+  run `npm fund` for details
+smraddhi@smraddhis-MacBook-Air ~ % npm fund
+smraddhi
+└─┬ https://github.com/sponsors/twbs
+  │ └── bootstrap@5.3.0
+  └── https://opencollective.com/popperjs
+      └── @popperjs/core@2.11.8
+
+smraddhi@smraddhis-MacBook-Air ~ % cd Documents 
+smraddhi@smraddhis-MacBook-Air Documents % mkdir Blockchain/election
+mkdir: Blockchain: No such file or directory
+smraddhi@smraddhis-MacBook-Air Documents % cd Blockchain
+smraddhi@smraddhis-MacBook-Air Blockchain % mkdir election
+smraddhi@smraddhis-MacBook-Air Blockchain % cd election
+smraddhi@smraddhis-MacBook-Air election % truffle unbox pet-shop
+
+Starting unbox...
+=================
+
+✓ Preparing to download box
+✖ Downloading
+Unbox failed!
+Error: Error connecting to https://raw.githubusercontent.com/truffle-box/pet-shop-box/master/truffle-box.json. Please check your internet connection and try again.
+
+read ECONNRESET
+    at Function.AxiosError.from (/opt/homebrew/lib/node_modules/truffle/build/webpack:/node_modules/axios/dist/node/axios.cjs:837:1)
+    at RedirectableRequest.handleRequestError (/opt/homebrew/lib/node_modules/truffle/build/webpack:/node_modules/axios/dist/node/axios.cjs:3016:1)
+    at RedirectableRequest.emit (node:events:514:28)
+    at ClientRequest.eventHandlers.<computed> (/opt/homebrew/lib/node_modules/truffle/build/webpack:/node_modules/follow-redirects/index.js:14:1)
+    at ClientRequest.emit (node:events:514:28)
+    at TLSSocket.socketErrorListener (node:_http_client:495:9)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle unbox pet-shop
+
+Starting unbox...
+=================
+
+✓ Preparing to download box
+✖ Downloading
+Unbox failed!
+Error: Error connecting to https://raw.githubusercontent.com/truffle-box/pet-shop-box/master/truffle-box.json. Please check your internet connection and try again.
+
+read ECONNRESET
+    at Function.AxiosError.from (/opt/homebrew/lib/node_modules/truffle/build/webpack:/node_modules/axios/dist/node/axios.cjs:837:1)
+    at RedirectableRequest.handleRequestError (/opt/homebrew/lib/node_modules/truffle/build/webpack:/node_modules/axios/dist/node/axios.cjs:3016:1)
+    at RedirectableRequest.emit (node:events:514:28)
+    at ClientRequest.eventHandlers.<computed> (/opt/homebrew/lib/node_modules/truffle/build/webpack:/node_modules/follow-redirects/index.js:14:1)
+    at ClientRequest.emit (node:events:514:28)
+    at TLSSocket.socketErrorListener (node:_http_client:495:9)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle unbox pet-shop
+
+Starting unbox...
+=================
+
+✓ Preparing to download box
+✓ Downloading
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated fsevents@1.2.4: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.2: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated set-value@2.0.0: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated mixin-deep@1.3.1: Critical bug fixed in v2.0.1, please upgrade to the latest version.
+npm WARN deprecated chokidar@2.0.4: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated axios@0.17.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated set-value@0.4.3: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+✓ Cleaning up temporary files
+✓ Setting up box
+
+Unbox successful, sweet!
+
+Commands:
+
+  Compile:        truffle compile
+  Migrate:        truffle migrate
+  Test contracts: truffle test
+  Run dev server: npm run dev
+
+smraddhi@smraddhis-MacBook-Air election % [200~touch contracts/Election.sol
+zsh: bad pattern: [200~touch
+smraddhi@smraddhis-MacBook-Air election % touch contracts/Election.sol
+smraddhi@smraddhis-MacBook-Air election % touch migrations/2_deploy_contracts.js 
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Compiling ./contracts/Migrations.sol
+
+project:/contracts/Election.sol:1:1: ParserError: Source file requires different compiler version (current compiler is 0.5.16+commit.9c3226ce.Emscripten.clang - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.4.2;
+^--------------------^
+
+Error: Truffle is currently using solc 0.5.16, but one or more of your contracts specify "pragma solidity 0.4.2".
+Please update your truffle config or pragma statement(s).
+(See https://trufflesuite.com/docs/truffle/reference/configuration#compiler-configuration for information on
+configuring Truffle to use a specific solc compiler version.)
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Compiling ./contracts/Migrations.sol
+
+> Compilation warnings encountered:
+
+    project:/contracts/Election.sol:8:5: Warning: This declaration shadows an existing declaration.
+    function Election () public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+project:/contracts/Election.sol:3:1: The shadowed declaration is here:
+contract Election {
+^ (Relevant source part starts here and spans across multiple lines).
+
+project:/contracts/Election.sol:8:5: SyntaxError: Functions are not allowed to have the same name as the contract. If you intend this to be a constructor, use "constructor(...) { ... }" to define it.
+    function Election () public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Compiling ./contracts/Migrations.sol
+
+project:/contracts/Election.sol:8:17: ParserError: Expected identifier but got '('
+    Constructor () public {
+                ^
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Compiling ./contracts/Migrations.sol
+
+project:/contracts/Election.sol:8:26: ParserError: Expected ';' but got '('
+    Constructor Election () public {
+                         ^
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Compiling ./contracts/Migrations.sol
+
+project:/contracts/Election.sol:8:27: ParserError: Expected ';' but got 'public'
+    Constructor Election  public {
+                          ^----^
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Compiling ./contracts/Migrations.sol
+> Artifacts written to /Users/smraddhi/Documents/Blockchain/election/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+> Something went wrong while attempting to connect to the network at http://127.0.0.1:7545. Check your network configuration.
+CONNECTION ERROR: Couldn't connect to node http://127.0.0.1:7545.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle develop
+Truffle Develop started at http://127.0.0.1:8545/
+
+Accounts:
+(0) 0x4d1afa36479e7c78212ce122d49e81f2590ce2ad
+(1) 0x54e990466b5d48936a3af2a45cbfce2c23182b44
+(2) 0xfa8af33d678d3d8384883fc18ee8f53faed3b266
+(3) 0xc44226b024f2978eb201d3bf0337cb3c608f16d6
+(4) 0xf559320ee70acaaead6b25b3a21b06f82f5a2372
+(5) 0x92d30e3dc05878ee5d942250b16d2d778a479337
+(6) 0xd582b0375c8d5bce5536adb031a9d03d2114d91e
+(7) 0x75e1d17acaf619cd090eb1e65a31a3a2f30fb469
+(8) 0x5dc5368ccbf53660262beb40a3f08027404edad7
+(9) 0x320f8d1d6b79538aa24b9f73dec56e259353f8a3
+
+Private Keys:
+(0) 2c0c77914b29579c6e5c0e96735ee3679c005d0441b7e3fb4d8fa9931d377109
+(1) 9df5c033ff003968088fd6a2aa616cb4b93f446c7d4034f441b3d030f9875f74
+(2) 851ad5fe4f7442e3625ce84cf839e787d81160d61390811c2f834507c8405a55
+(3) 447aea976f8e7cc76bee4c6b26b7cdffa23cd3a15f3adec97816c799426163cb
+(4) 8757dcc7de18aaf1b2d576877486d715e33052ffc9107500e08c921c9c327d6a
+(5) 7806b4cd4af5ef401a9b82d5ac472fe6dc6863e7fce42b013a286b3f779abe35
+(6) 7fd18ec6b7b6e0f31dc21c5cdc01f8f0df25ff51754e425b3a6a27f17776782a
+(7) 24ebd3b316b61774672ba560d2fe9f0239b3df3092886132357a2a398dfcc3a8
+(8) e55fa0836a8ffa3b79a68a1f705ac6169de1839bff47e3e92fd35eb9840fb47e
+(9) 9d9a676adb3baf1b4f6dff9227fa391e83d2fb7c19ef26a61ea950a26e01438d
+
+Mnemonic: among ribbon sort lawn funny chimney finish humble voyage regular maple language
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+truffle(develop)> exit
+Uncaught ReferenceError: exit is not defined
+truffle(develop)> 
+zsh: suspended  truffle develop
+smraddhi@smraddhis-MacBook-Air election % truffle migrate
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x5aa05de40799434628792d3c1122a2e450d0bac15204afff201cb40f10db2630
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x0Ff3f27a5877CAa636D0573Efd363f96a66DbB4e
+   > block number:        1
+   > block timestamp:     1695235730
+   > account:             0xD6d7ac17F970c1b713c819E9E39E3C2Cad329545
+   > balance:             99.999347804875
+   > gas used:            193243 (0x2f2db)
+   > gas price:           3.375 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000652195125 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:      0.000652195125 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Election'
+   --------------------
+   > transaction hash:    0xbe1163b6e2c7df8fc48a481895d7516d267d4919adb5bf1d611d6d8d326b1712
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9B562C2b855445433cEB0263E64Aba3b90da6C12
+   > block number:        3
+   > block timestamp:     1695235730
+   > account:             0xD6d7ac17F970c1b713c819E9E39E3C2Cad329545
+   > balance:             99.998678544669541001
+   > gas used:            163567 (0x27eef)
+   > gas price:           3.176737487 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000519609420536129 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000519609420536129 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001171804545536129 ETH
+
+
+smraddhi@smraddhis-MacBook-Air election % truffle console
+truffle(development)> Election.deployed().then(function(instance) { app = instance })
+undefined
+truffle(development)> app.candidate()
+'Candidate 1'
+truffle(development)> 
+zsh: suspended  truffle console
+smraddhi@smraddhis-MacBook-Air election % truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+
+> Compilation warnings encountered:
+
+    project:/contracts/Election.sol:22:5: Warning: This declaration shadows an existing declaration.
+    function Election () public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+project:/contracts/Election.sol:3:1: The shadowed declaration is here:
+contract Election {
+^ (Relevant source part starts here and spans across multiple lines).
+
+project:/contracts/Election.sol:22:5: SyntaxError: Functions are not allowed to have the same name as the contract. If you intend this to be a constructor, use "constructor(...) { ... }" to define it.
+    function Election () public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,project:/contracts/Election.sol:17:28: TypeError: Data location must be "storage" or "memory" for parameter in function, but none was given.
+    function addCandidate (string _name) private {
+                           ^----------^
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+
+> Compilation warnings encountered:
+
+    project:/contracts/Election.sol:22:5: Warning: This declaration shadows an existing declaration.
+    function Election () public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+project:/contracts/Election.sol:3:1: The shadowed declaration is here:
+contract Election {
+^ (Relevant source part starts here and spans across multiple lines).
+
+project:/contracts/Election.sol:22:5: SyntaxError: Functions are not allowed to have the same name as the contract. If you intend this to be a constructor, use "constructor(...) { ... }" to define it.
+    function Election () public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+
+project:/contracts/Election.sol:22:17: ParserError: Expected '(' but got identifier
+    constructor Election () public {
+                ^------^
+
+Compilation failed. See above.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Election.sol
+> Artifacts written to /Users/smraddhi/Documents/Blockchain/election/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x2853b6443f42f80b965e9f7e2af9deae9ab3898ade2067330e20335fe000902f
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x2B4Dfa1499d6480ac57bD24a19E6a22f3714E2FA
+   > block number:        5
+   > block timestamp:     1695236222
+   > account:             0xD6d7ac17F970c1b713c819E9E39E3C2Cad329545
+   > balance:             99.998005823150755733
+   > gas used:            193243 (0x2f2db)
+   > gas price:           3.022364406 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000584050764908658 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000584050764908658 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'Election'
+   --------------------
+   > transaction hash:    0x0a7e68f95790aac31edc2ed3f7d2d872b10b58d9613e5fb5c18e59215aecb66e
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9c90d0A38de78C820E9FE8AFf8fFa8Efe01b9bA2
+   > block number:        7
+   > block timestamp:     1695236223
+   > account:             0xD6d7ac17F970c1b713c819E9E39E3C2Cad329545
+   > balance:             99.997030258122195944
+   > gas used:            289305 (0x46a19)
+   > gas price:           2.904004087 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000840142902389535 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000840142902389535 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001424193667298193 ETH
+
+
+smraddhi@smraddhis-MacBook-Air election % touch test/election.js
+smraddhi@smraddhis-MacBook-Air election % truffle test
+> Something went wrong while attempting to connect to the network at http://127.0.0.1:7545. Check your network configuration.
+CONNECTION ERROR: Couldn't connect to node http://127.0.0.1:7545.
+Truffle v5.11.5 (core: 5.11.5)
+Node v20.5.0
+smraddhi@smraddhis-MacBook-Air election % truffle test
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+  Contract: Election
+    ✔ initializes with two candidates
+    ✔ it initializes the candidates with the correct values
+
+
+  2 passing (69ms)
+
+smraddhi@smraddhis-MacBook-Air election % truffle compile
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+smraddhi@smraddhis-MacBook-Air election % truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xb1414cf7a4bf75ea4634d35bd30aabe55959a314c0cb94f78d9032091ff8df62
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x51EF04B0e49125c2C46A7Bb3c1B0b2159674f3A7
+   > block number:        5
+   > block timestamp:     1695285216
+   > account:             0x042EB09D8c72A6be92ba0C3a18Cd3aF3623598F1
+   > balance:             99.997605760142833611
+   > gas used:            193243 (0x2f2db)
+   > gas price:           3.025136872 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000584586524555896 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000584586524555896 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'Election'
+   --------------------
+   > transaction hash:    0x8d733cc3b814d72361629112d4deb8e82a576b26ff7e635f39debe8a75052970
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x2cc43D1F206106B24a4f276b1c12efcd310142e2
+   > block number:        7
+   > block timestamp:     1695285216
+   > account:             0x042EB09D8c72A6be92ba0C3a18Cd3aF3623598F1
+   > balance:             99.996629462900178243
+   > gas used:            289305 (0x46a19)
+   > gas price:           2.906148352 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00084076324897536 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00084076324897536 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001425349773531256 ETH
+
+
+smraddhi@smraddhis-MacBook-Air election % truffle test
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+  Contract: Election
+    ✔ initializes with two candidates
+    ✔ it initializes the candidates with the correct values
+
+
+  2 passing (74ms)
+
+smraddhi@smraddhis-MacBook-Air election % 

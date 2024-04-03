@@ -1,0 +1,80 @@
+Last login: Sun Oct 15 23:55:36 on ttys009
+smraddhi@smraddhis-MacBook-Air ~ % truffle --version
+Truffle v5.11.5 (core: 5.11.5)
+Ganache v7.9.1
+Solidity v0.5.16 (solc-js)
+Node v20.5.0
+Web3.js v1.10.0
+smraddhi@smraddhis-MacBook-Air ~ % hardhat --version
+zsh: command not found: hardhat
+smraddhi@smraddhis-MacBook-Air ~ % npm --version
+9.8.0
+smraddhi@smraddhis-MacBook-Air ~ % cd Blockchain2
+cd: no such file or directory: Blockchain2
+smraddhi@smraddhis-MacBook-Air ~ % cd Documents/Blockchain2
+smraddhi@smraddhis-MacBook-Air Blockchain2 % truffle init
+
+Starting init...
+================
+
+> Copying project files to /Users/smraddhi/Documents/Blockchain2
+
+Init successful, sweet!
+
+Try our scaffold commands to get started:
+  $ truffle create contract YourContractName # scaffold a contract
+  $ truffle create test YourTestName         # scaffold a test
+
+http://trufflesuite.com/docs
+
+smraddhi@smraddhis-MacBook-Air Blockchain2 % truffle unbox pet-shop
+This directory is non-empty...
+? Proceed anyway? (Y/n) 
+Starting unbox...
+=================
+
+? Proceed anyway? Yes
+✓ Preparing to download box
+✓ Downloading
+contracts already exists in this directory...
+? Overwrite contracts? Yes
+migrations already exists in this directory...
+? Overwrite migrations? Yes
+test already exists in this directory...
+? Overwrite test? Yes
+truffle-config.js already exists in this directory...
+? Overwrite truffle-config.js? Yes
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated fsevents@1.2.4: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+npm WARN deprecated set-value@2.0.0: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+npm WARN deprecated mixin-deep@1.3.1: Critical bug fixed in v2.0.1, please upgrade to the latest version.
+npm WARN deprecated set-value@0.4.3: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated chokidar@2.0.4: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated source-map-resolve@0.5.2: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated axios@0.17.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+✓ Cleaning up temporary files
+✓ Setting up box
+
+Unbox successful, sweet!
+
+Commands:
+
+  Compile:        truffle compile
+  Migrate:        truffle migrate
+  Test contracts: truffle test
+  Run dev server: npm run dev
+
+smraddhi@smraddhis-MacBook-Air Blockchain2 % ls
+LICENSE			contracts		package.json
+box-img-lg.png		migrations		src
+box-img-sm.png		node_modules		test
+bs-config.json		package-lock.json	truffle-config.js
+smraddhi@smraddhis-MacBook-Air Blockchain2 % 
